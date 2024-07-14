@@ -8,7 +8,8 @@ const Header = () => {
     <div className="container mx-auto flex justify-between items-center">
       <div className="flex items-center">
         <img src= "src/assets/cardboard.png" alt="Logo" className="h-8 w-8 mr-2" /> 
-        <a href="/To-Do" className="text-white hover:text-gray-500 ml-8 mr-8">To-Do</a>
+        <a href="/To-Do" className="text-white hover:text-gray-300 ml-8 mr-8">To-Do</a>
+        <a href="Timer" className="text-white hover:text-gray-300 mr-2">Timer</a>
         
         <span className="text-white text-xl font-bold"></span>
       </div>
